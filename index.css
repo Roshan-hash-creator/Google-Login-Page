@@ -1,0 +1,122 @@
+body{
+    margin: 100px 557px 25px;
+}
+.google__container{
+    border: 1px solid rgb(226, 226, 226);
+    padding: 50px 28px 25px;
+    width: 350px;
+    height: 400px;
+    border-radius: 6px;
+
+}
+.google__logo{
+    width: 100px;
+    padding: 0px 130px;
+}
+.signIn{
+    margin: 8px 0px;
+    color: rgb(24, 23, 23);
+    text-align: center;
+    font-weight: 500;
+
+}
+.already_account{
+    margin: 10px 0px;
+    text-align: center;
+    font-weight: 540;
+}
+.google_box{
+    padding: 30px 0px 0px 0px;
+    width: 100%;
+}
+.input{
+    width: 90%;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 1px solid rgb(226, 226, 226);
+}
+.input:focus{
+outline-color: #6300ee72;
+}
+.forget_email{
+    margin-top: 10px;
+    color: #1a73e8e2;
+    font-weight: 600;
+    cursor: pointer;
+}
+.annyomous{
+    margin-top: 40px;
+    font-size: 15px;
+    color: #5f6368;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.learn_link{
+    margin-top: 0px;
+}
+.learn_link > a{
+    color: #1a73e8e2;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600
+}
+.create{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.create_account{
+    color: #1a73e8e2;
+    font-weight: 500;
+    padding: 8px 5px;
+}
+.create_account:hover{
+    cursor: pointer;
+    background-color: #f2f4f9b7;
+    border-radius: 4px;
+}
+.next{
+    padding: 5px 26px;
+    color: white;
+    background-color: #1a73e8e2;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.google__lower{
+    display: flex;
+    position: relative;
+   margin-top: 10px;
+}
+.google__lower > h3{
+    font-size: 14px;
+    margin: 0px;
+    padding: 10px 2px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+.list__item{
+    position: absolute;
+    right: 10px;
+}
+
+.list__item > ul{
+    display: flex;
+    list-style-type: none;
+    margin: 10px 0px;
+    padding: 0px;
+
+}
+.list__item > ul > li > a{
+    text-decoration: none;
+    margin-left: 35px;
+    font-size: 14px;
+}
+.last_list{
+    padding-left: 0px;
+}
+
